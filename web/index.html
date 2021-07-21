@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.rtl.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap-utilities.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap-reboot.css">
+    <title>Calculator By ArpitBodana</title>
+</head>
+<body class="text-center">
+    <div class="main text-center">
+        <h2 class="display-4 text-light mb-4">Calculator</h2>
+        <input type="text" class="dplay bg-success text-light"  readonly><br>
+        <span  id='num-c'  class="large-button btn btn-lg btn-warning" type="button" onclick="clearall()">C</span > <span class="large-button btn btn-lg btn-primary btn-lg" onclick="plusminus()">+/-</span> <span id='num-r' class="large button btn btn-lg btn-primary btn-lg" type="button" onclick="remove()">&#8592</span> <br>
+        <span id='num-7' class="btn btn-secondary btn-lg" type="button" onclick="buttonvalue(id)">7</span > <span id='num-8' class="btn btn-secondary btn-lg" type="button" onclick="buttonvalue(id)">8</span > <span id='num-9'class="btn btn-secondary btn-lg"  type="button" onclick="buttonvalue(id)">9</span ><span id='num-/'class="btn btn-primary btn-lg" type="button" onclick="buttonvalue(id)" >/</span ><br>
+        <span id='num-4' class="btn btn-secondary btn-lg" type="button" onclick="buttonvalue(id)">4</span > <span id='num-5' class="btn btn-secondary btn-lg" type="button" onclick="buttonvalue(id)">5</span > <span id='num-6'class="btn btn-secondary btn-lg"  type="button" onclick="buttonvalue(id)">6</span ><span id='num-*' class="btn btn-primary btn-lg" type="button" onclick="buttonvalue(id)">*</span ><br>
+        <span id='num-1' class="btn btn-secondary btn-lg" type="button" onclick="buttonvalue(id)">1</span > <span id='num-2' class="btn btn-secondary btn-lg" type="button" onclick="buttonvalue(id)">2</span > <span id='num-3'class="btn btn-secondary btn-lg"  type="button" onclick="buttonvalue(id)">3</span ><span id='num-+' class="btn btn-primary btn-lg" type="button" onclick="buttonvalue(id)">+</span ><br>
+        <span id='num-.' class="btn btn-primary btn-lg" type="button" onclick="buttonvalue(id)">.</span > <span id='num-0' class="btn btn-secondary btn-lg"  type="button" onclick="buttonvalue(id)">0</span > <span id='num-=' class="btn btn-danger" type="button" onclick="evalvalue()">=</span ><span id='num--' class="btn btn-primary btn-lg"  type="button" onclick="buttonvalue(id)">-</span ><br>
+    </div>
+    
+</body>
+<script type="text/javascript" src="/eel.js"></script>
+<script type="text/javascript" src="./jquery.js"></script>
+<script type="text/javascript" src="./script.js"></script>
+<script type="text/javascript" src="./bootstrap/js/bootstrap.js"></script>
+<script type="text/javascript" src="./bootstrap/js/bootstrap.bundle.js"></script>
+<script type="text/javascript" src="./bootstrap/js/bootstrap.esm.js"></script>
+</html>
